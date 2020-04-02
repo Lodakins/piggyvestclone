@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+  background-color: #ADD8E6;
+}
+* {box-sizing: border-box}
+
+
+#formContainer{
+  width: 60%;
+  margin: 0 auto;
+
+}
+.header{
+  text-align: center;
+  margin-top:10%;
+}
+.header h1{
+  color: #fff;
+}
+.form{
+  margin-top:5%;
+  padding: 10px 50px; 
+   background-color: #fff;
+   padding-bottom: 30px; 
+   border-radius: 27px 26px 25px 0px;
+-webkit-border-radius: 27px 26px 25px 0px;
+-moz-border-radius: 27px 26px 25px 0px;
+}
+.form-content{
+text-align: center;
+padding-top: 10px;
+margin-bottom:10px; 
+}
+.form-content h3{
+  color: rgb(8, 62, 158);
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+select{
+   width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+label{
+  color: #999;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color:#ADD8E6;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button {
+  background-color: rgb(8, 62, 158);
+  color: white;
+  padding: 24px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 27px 20px 20px 0px;
+-webkit-border-radius: 27px 20px 20px 0px;
+-moz-border-radius: 27px 20px 20px 0px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #ADD8E6;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+.container {
+  padding: 16px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+
+<body>
+<div id="formContainer">
+
+<div class="header">
+  <h1>piggyvest</h1>
+</div>
+<div class="form">
+<div class="form-content">
+  <h3> Create a Secure Account</h3>
+  <p> Welcome to the future of saving & Investment </p>
+</div>
+<form action="" method="POST">
+<p>
+<label for="fullname">Full name</label><br>
+<input type="text" id="" placeholder="Full Name" value="">
+</p>
+<p>   
+<label for="email">Email Address</label><br>
+<input type="text" placeholder="Email Address" name="email" required>
+</p>
+<p>  
+<label for="PhoneNumber">Phone Number</label>
+</p>
+<p>
+<input type="text" id="PhoneNumber" placeholder="Phone Number" value="">
+</p>
+
+<p>
+<label for="psw">Password</label><br>
+<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+<p>
+<p>
+    <label for="Code">Referrer Phone or Promo Code (Optional)
+</label><br>
+    <input type="text" placeholder="Referrer phone or Code" id="Code">
+</p>
+<p>   
+<label for="How did you hear about us">How did you hear about us?(Optional)</label><br>
+<select>
+  <option> Click to Select</option>
+  <option> Facebook</option>
+  <option> Twitter</option>
+  <option> Instagram</option>
+  <option> Family/ Friends/ Coworker Referral</option>
+  <option> Google Search</option>
+</select>
+</p>
+
+<button type="submit" class="CreateAccount"> Create Account</button>
+</form>
+</div>
+<p style="text-align: center; margin-top: 36px;"> <a href="#" style="color:#fff">Already have an account ? Log In</a>.</p>
+</div>
+</body>
+</html>
